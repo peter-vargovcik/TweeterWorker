@@ -8,17 +8,17 @@ namespace SpeedTraps.DTO
 {
     public class Marker
     {
-        int ID { get; set; }
-        double Latitude { get; set; }
-        double Longitude { get; set; }
-        string Type { get; set; }
-        string County { get; set; }
-        string RoadName { get; set; }
-        string RoadNumber { get; set; }
-        int SpeedLimit { get; set; }
-        string Direction { get; set; }
-        string Details { get; set; }
-        DateTime Date { get; set; }
+        public int ID { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
+        public string Type { get; set; }
+        public string County { get; set; }
+        public string RoadName { get; set; }
+        public string RoadNumber { get; set; }
+        public int SpeedLimit { get; set; }
+        public string Direction { get; set; }
+        public string Details { get; set; }
+        public DateTime Date { get; set; }
     }
 
     /*
